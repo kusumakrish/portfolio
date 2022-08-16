@@ -1,0 +1,589 @@
+.main{
+    top: 0px;
+    margin-left: 65px;
+    width: 1366px;
+    height: 74px;
+    background: #FBF3E4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 59px #B9164614;
+    opacity: 1;
+    margin-top: 20px;
+    }
+    .name{
+        position: relative;
+        top: 20px;
+        color: green;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 10px;
+        opacity: 1;
+        width: 470px;
+    
+    }
+    .home{
+       position: absolute;
+       left: 800px;
+       top: 60px;
+       border: none;
+      text-decoration: none;
+      background-color:#FBF3E4;
+      cursor: pointer;
+    }
+    .about{
+        position: absolute;
+        left: 900px;
+        top: 60px;
+        border: none;
+        text-decoration: none;
+        background-color:#FBF3E4;
+       cursor: pointer;
+    }
+    .potfolio{
+        position: absolute;
+        left: 1000px;
+        top: 60px;
+        border: none;
+        text-decoration: none;
+        background-color:#FBF3E4;
+      cursor: pointer;
+    }
+    .resume{
+        position: absolute;
+        left: 1100px;
+        top: 60px;
+        border: none;
+        text-decoration: none;
+        background-color:#FBF3E4;
+      cursor: pointer;
+    }
+    .contact{
+        position: absolute;
+        left: 1200px;
+        top: 60px;
+        border: none;
+        text-decoration: none;
+        background-color:#FBF3E4;
+      cursor: pointer;
+    }
+    .second{
+        top: 74px;
+        left: 0px;
+        width: 1366px;
+        height: 470px;
+        opacity: 1;
+        background-color: #105652;
+    }
+    .nameText{
+        position: relative;
+        top: 90px;
+        left: 103px;
+        width: 461px;
+        height: 49px;
+        text-align: left;
+        font: normal normal medium 40px/44px Inter;
+        letter-spacing: 0px;
+        color: #FCA738;
+        font-size: 30px;
+        opacity: 1;
+    }
+    .designation{
+        position: relative;
+        top: 54px;
+        left: 100px;
+        width: 444px;
+        height: 49px;
+        text-align: left;
+        font: normal normal bold 40px/44px Inter;
+        letter-spacing: 0px;
+        color: #FBF3E4;
+        font-size: 30px;
+        opacity: 1;
+    }
+    .text{
+        position: relative;
+        top: 43px;
+        left: 114px;
+        width: 286px;
+        height: 21px;
+        text-align: left;
+        font: normal normal 300 18px/44px Inter;
+        letter-spacing: 0px;
+        color: #FBF3E4;
+        opacity: 1;
+    }
+    .hireme{
+        display: inline;
+        position: relative;
+        bottom: 346px;
+        left: 0px;
+        margin-left:100px;
+        width: 164px;
+        height: 48px;
+        background: #09BEAD 0% 0% no-repeat padding-box;
+        box-shadow: 0px 16px 29px #0BBEAD69;
+        border-radius: 8px;
+        opacity: 0.99;
+        border-style: none;
+        cursor: pointer;
+    }
+    .secondResume{
+        display: inline;
+        position: relative;
+        bottom: 346px;
+        left: 120px;
+        margin-left:-85px;
+        width: 148px;
+        height: 50px;
+        background: #FCA738 0% 0% no-repeat padding-box;
+        box-shadow: 0px 16px 28px #F57F1769;
+        border-radius: 8px;
+        opacity: 1;
+        border-style: none;
+        cursor: pointer;
+    }
+    .girl-image{
+        display: inline;
+        position: relative;
+        left: 480px;
+        bottom: 200px;
+        height: 451px;
+        width: 400px;
+    }
+    .third{
+        position: relative;
+        top: 60px;
+        left: 103px;
+        width: 1160px;
+        height: 541px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 59px #10565221;
+        border-radius: 20px;
+        opacity: 1;
+    }
+    .girl-image-about{
+        display: inline;
+        margin-left: 30px;
+        height: 460px;
+        width: 400px;
+    }
+    .Aboutme{
+        position: relative;
+        bottom: 451px;
+        left: 691px;
+        width: 166px;
+        height: 42px;
+        text-align: left;
+        font: normal normal bold 35px/44px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .hr{
+        position: relative;
+        bottom: 471px;
+        left: 200px;
+        width: 209px;
+        height: 0px;
+        border: 3px solid #FCA738;
+        opacity: 1;
+    }
+    .about-container{
+        height: 100px;
+        width: 295px;
+        margin-left: 639px;
+        position: relative;
+        bottom: 480px;
+    }
+    .language-container{
+        top: 997px;
+        left: 692px;
+        width: 500px;
+        height: 143px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 30px #00000029;
+        border-radius: 20px;
+        opacity: 1;
+    }
+    .language-heading{
+        top: 1012px;
+        left: 720px;
+        width: 238px;
+        height: 20px;
+        text-align: start;
+        font: normal normal medium 16px/30px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .four{
+        margin-top: 100px;
+    }
+    .portfolio-heading{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: #105652;
+    }
+    .img-container{
+        display: flex;
+        height: 900px;
+        width: 948px;
+        margin-left: 180px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid pink;
+        background-color: pink;
+        border-radius: 20px;
+    }
+    .img-container-item{
+        height: 346px;
+        width: 377px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 2px solid pink;
+    }
+    .resume-heading{
+        top: 1957px;
+        left: 604px;
+        width: 138px;
+        height: 42px;
+        text-align: center;
+        font: normal normal bold 35px/44px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+        margin-left: 600px;
+    }
+    .resume-hr{
+        position: relative;
+        bottom: 33px;
+        left: -9px;
+        width: 209px;
+        height: 0px;
+        border: 3px solid #FCA738;
+        opacity: 1;
+    }
+    .education-container{
+        top: 2066px;
+        left: 103px;
+        width: 546px;
+        height: 419px;
+        /* UI Properties */
+        opacity: 1;
+        /* background-color: pink; */
+        margin-left: 195px;
+    }
+    .education-heading{
+        top: 2377px;
+        left: 103px;
+        width: 697px;
+        height: 39px;
+        opacity: 1;
+        font-size: 20px;
+        color: #105652;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .side-hr{
+        position: relative;
+        right: 225px;
+        bottom: 8px;
+        /* top: 2145px; */
+        /* left: 103px; */
+        width: 1px;
+        height: 130px;
+        background: #09BCAB 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .round{
+        width: 14px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:#09BCAB;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .btech{
+        position: relative;
+        left: 64px;
+        bottom: 145px;
+        /* width: 195px;
+        height: 24px;
+        text-align: left; */
+        font: normal normal bold 20px/24px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .course{
+        position: relative;
+        left: 64px;
+        bottom: 160px;
+        font: normal normal Inter;
+        color: #105652;
+        opacity: 1;
+    }
+    .year{
+        position: relative;
+        bottom: 640px;
+        left: 400px;
+        padding: 10px 30px ;
+        border-radius: 20px;
+        background-color: #FCA738;
+    }
+    .sec-year{
+        position: relative;
+        bottom: 555px;
+        left: 400px;
+        padding: 10px 30px ;
+        border-radius: 20px;
+        background-color: #FCA738;
+    }
+    .ten-year{
+        position: relative;
+        bottom: 460px;
+        left: 260px;
+        padding: 10px 30px ;
+        border-radius: 20px;
+        background-color: #FCA738;
+    }
+    .girl-image-resume{
+        position: relative;
+        bottom: 800px;
+        left: 600px;
+        height: 380px;
+        width: 400px;
+    }
+    .people{
+        top: 2719px;
+        left: 490px;
+        margin-left: 436px;
+        width: 454px;
+        height: 42px;
+        text-align: left;
+        font: normal normal bold 35px/44px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .people-container{
+        top: 2820px;
+        left: 103px;
+        width: 1140px;
+        height: 560px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 32px #0404043D;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 140px;
+    }
+    .peopleOne{
+        top: 2900px;
+        left: 233px;
+        width: 180px;
+        height: 180px;
+        /* background: transparent url('img/testimonial-img1.png') 0% 0% no-repeat padding-box; */
+        opacity: 1;
+        margin-left: 192px;
+        margin-top: 30px;
+    }
+    .nameOne{
+        width: 247px;
+        height: 24px;
+        text-align: center;
+        font: normal normal medium 20px/24px Inter;
+        letter-spacing: 0px;
+        color: #373742;
+        opacity: 1;
+        margin-top: 10px;
+        margin-left: 223px;
+    }
+    .nameOne-sec{
+        top: 3126px;
+        left: 189px;
+        width: 247px;
+        height: 20px;
+        text-align: center;
+        font: normal normal normal 16px/20px Inter;
+        letter-spacing: 0px;
+        color: #7B7B88;
+        opacity:1;
+        margin-left: 223px;
+    }
+    .nameOne-third{
+        top: 3178px;
+        left: 186px;
+        width: 274px;
+        height: 129px;
+        /* UI Properties */
+        /* text-align: center; */
+        font: normal normal 300 20px/28px Inter;
+        letter-spacing: 0px;
+        color: #4F4F53;
+        opacity: 1;
+        margin-left: 152px;
+        margin-top: 30px;
+    }
+    .nameTwo{
+        margin-left: 160px;
+    }
+    .nameThree{
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+    .nameTwo-heading{
+        position: relative;
+        bottom: 200px;
+        left: 575px;
+    }
+    .nameTwo-third{
+        width: 274px;
+        height: 129px;
+        position: relative;
+        bottom: 190px;
+        left: 510px;
+        margin-right:10px;
+        font: normal normal 300 20px/28px Inter;
+        color: #4F4F53;
+        opacity: 1;
+    }
+    .nameThree-heading{
+        position: relative;
+        left: 844px;
+        bottom: 394px;
+    }
+    .nameThree-third{
+        width: 274px;
+        height: 129px;
+        position: relative;
+        bottom: 359px;
+        left: 815px;
+        font: normal normal 300 20px/28px Inter;
+        color: #4F4F53;
+        opacity: 1;
+
+    }
+    .people-footer{
+        position: relative;
+        bottom: 300px;
+        width: 1140px;
+        height: 88px;
+        background: #FBF3E4 0% 0% no-repeat padding-box;
+        border-radius: 0px 0px 10px 10px;
+        opacity: 1;
+
+    }
+    .people-footer-heading{
+        width: 222px;
+        height: 24px;
+        text-align: center;
+        font: normal normal medium 20px/24px Inter;
+        letter-spacing: 0px;
+        color: #FCA738;
+        opacity: 1;
+        margin-left: 417px;
+        position: relative;
+        top: 30px;
+    }
+    .ContactMe{
+        position: relative;
+        left: 600px;
+        top: 30px;
+        text-align: left;
+        font: normal normal bold 35px/44px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .Contact-container{
+        top: 3643px;
+        left: 103px;
+        width: 1140px;
+        height: 606px;
+        box-shadow: 0px 10px 32px #0404043D;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 100px;
+    }
+    .let-connect{
+        position: relative;
+        top: 132px;
+        left: 187px;
+        text-align: left;
+        font: normal normal bold 26px/31px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .contact-email{
+        position: relative;
+        top: 200px;
+        left: 30px;
+
+    }
+    .contact-form-container{
+        position: relative;
+        bottom: 224px;
+        left: 587px;
+        width: 570px;
+        height: 606px;
+        background: #FBF3E4 0% 0% no-repeat padding-box;
+        border-radius: 0px 10px 10px 0px;
+        opacity: 1;
+    }
+    .form-heading{
+        position: relative;
+        top: 80px;
+        left: 180px;
+        width: 253px;
+        height: 31px;
+        text-align: left;
+        font: normal normal bold 26px/31px Inter;
+        letter-spacing: 0px;
+        color: #105652;
+        opacity: 1;
+    }
+    .form{
+        height: 400px;
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 180px;
+        /* background-color: orange; */
+    }
+    .lable-head{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .form-button{
+        padding: 10px 30px;
+        background-color: #FCA738;
+        text-align: center;
+        border: 1px solid #FCA738;
+        border-radius: 10px;
+    }
+    .eight{
+        top: 4342px;
+        left: 0px;
+        width: 1366px;
+        height: 94px;
+        background: #FBF3E4 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .rights-footer{
+        position: relative;
+        top: 40px;
+        left: 430px;
+        width: 375px;
+        height: 21px;
+        text-align: left;
+        font: normal normal normal 18px/21px Inter;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
