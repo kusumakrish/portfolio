@@ -19,7 +19,8 @@ import { Link } from 'react-scroll';
 
 export default function Profile() {
   return (
-    <div class="main">
+    <div className="body">
+    <div class="mainOne">
     {/* <h1 class="name">Kusuma Krishna</h1>
     <nav class="nav">
         <button class="home">Home</button>
@@ -30,7 +31,7 @@ export default function Profile() {
     </nav> */}
     <div class="second" id='home'>
       
-        <p class="nameText">Hi, I am Kusuma Krishna</p>
+        <p class="nameText">Hi, <span className='responsive'>I am Kusuma Krishna</span></p>
         <p class="designation">A Full-Stack Developer</p>
         <p class="text">Get ready to turn ideas into reality</p><br/>
         {/* <Link className="hireme" to="Contact" spy={true} smooth={true}>Hire Me</Link>
@@ -65,12 +66,12 @@ export default function Profile() {
     </div>
     <div className='four' id='portfolio'>
             <p className='portfolio-heading'>My Portfolio</p>
-            <hr class="hr"style={{position:"relative",bottom:"30px",left:"6px"}}/>
+            <hr class="hr"style={{position:"relative",bottom:"30px",left:"400px"}}/>
             <div className='img-container'>
             <a href='https://kusumakrish.github.io/project5/'><img src={ToDoWeb} alt='html' className='img-container-item'/></a>
             <a href='https://kusumakrish.github.io/project3/'><img src={ToDoMobile} alt='html'className='img-container-item' style={{"marginLeft":"144px"}}/></a>
-            <a href='https://kusumakrish.github.io/project-41/'><img src={DigitalClock} alt='html'className='img-container-item'/></a>
-            <a href='https://idyllic-custard-ed4fda.netlify.app'><img src={Blog} alt='html' className='img-container-item'style={{"marginLeft":"144px"}} /></a>
+            <a href='https://kusumakrish.github.io/project-41/'><img src={DigitalClock} alt='html'className='img-container-item , img-responsive'/></a>
+            <a href='https://idyllic-custard-ed4fda.netlify.app'><img src={Blog} alt='html' className='img-container-item , img-responsive'style={{"marginLeft":"144px"}} /></a>
             </div>
     </div>
     <div className='five' id='resume'>
@@ -100,7 +101,7 @@ export default function Profile() {
     </div>
     <div className='six'>
         <p className='people'>What people say about me</p>
-        <hr class="resume-hr" style={{width:"400px",left:"-47px"}}/>
+        <hr class="resume-hr" style={{width:"400px",left:"290px"}}/>
         <div className='people-container'>
         <img src={peopleOne} alt='html'className='peopleOne'/>
         <img src={peopleTwo} alt='html'className='nameTwo'/>
@@ -116,13 +117,13 @@ export default function Profile() {
         <div className='nameThree-third'>Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
         <div className='people-footer'>
         <span className='people-footer-heading'>View more testimonials</span>
-        <i class="fa-solid fa-arrow-right" style={{position:"relative",top:"32px",left:"10px", color:"#FCA738"}}></i>
+        <i class="fa-solid fa-arrow-right , responsive-arrow" style={{position:"relative",top:"32px",left:"10px", color:"#FCA738"}}></i>
         </div>
         </div>
     </div>
     <div className='seven'id='Contact'>
          <p className='ContactMe'>Contact Me</p>
-         <hr class="resume-hr" style={{width:"200px",left:"10px",top:"5px"}}/><br/><br/>
+         <hr class="resume-hr , hr-responsive" style={{width:"200px",left:"340px",top:"5px"}}/><br/><br/>
          <div className='Contact-container'>
          <span className='let-connect'>Let's connect</span><br/>
          <span className='let-connect'style={{fontSize:"12px"}}>You can contact me any time i am always ready to connect with you</span><br/><br/>
@@ -152,6 +153,7 @@ export default function Profile() {
     <div className='eight'>
           <span className='rights-footer'>© 2022 Kalvakollu Kusuma Krishna. All rights reserved.</span>
     </div>
+</div>
 </div>
   )
 }
