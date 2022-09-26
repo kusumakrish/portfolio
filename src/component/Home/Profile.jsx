@@ -15,6 +15,8 @@ import Blog from "../assets/Blog.png"
 import peopleOne from "../assets/testimonial-img1.png"
 import peopleTwo from "../assets/testimonial-img2.png"
 import peopleThree from "../assets/testimoney-img3.jpg"
+import ecommerceimage from "../assets/ecommeceimgage.png";
+import chattappimage from "../assets/chattappimage.png";
 import { Link } from 'react-scroll';
 
 export default function Profile() {
@@ -68,10 +70,12 @@ export default function Profile() {
             <p className='portfolio-heading'>My Portfolio</p>
             <hr class="hr"style={{position:"relative",bottom:"30px",left:"400px"}}/>
             <div className='img-container'>
-            <a href='https://kusumakrish.github.io/project5/'><img src={ToDoWeb} alt='html' className='img-container-item'/></a>
-            <a href='https://kusumakrish.github.io/project3/'><img src={ToDoMobile} alt='html'className='img-container-item' style={{"marginLeft":"144px"}}/></a>
-            <a href='https://kusumakrish.github.io/project-41/'><img src={DigitalClock} alt='html'className='img-container-item , img-responsive'/></a>
-            <a href='https://idyllic-custard-ed4fda.netlify.app'><img src={Blog} alt='html' className='img-container-item , img-responsive'style={{"marginLeft":"144px"}} /></a>
+            <a href='https://kusumakrish.github.io/project5/' target="__blank"><img src={ToDoWeb} alt='html' className='img-container-item'/></a>
+            <a href='https://kusumakrish.github.io/project3/' target="__blank"><img src={ToDoMobile} alt='html'className='img-container-item'/></a>
+            <a href='https://kusumakrish.github.io/project-41/' target="__blank"><img src={DigitalClock} alt='html'className='img-container-item , img-responsive'/></a>
+            <a href='https://idyllic-custard-ed4fda.netlify.app' target="__blank"><img src={Blog} alt='html' className='img-container-item , img-responsive' /></a>
+            <a href='https://632851ab7d4c6613f2feed3d--tranquil-otter-d48ed8.netlify.app/' target="__blank"><img src={ecommerceimage} alt='html' className='img-container-item , img-responsive' /></a>
+            <a href='https://632838733dce89007bdeb871--profound-faloodeh-de4bcf.netlify.app/' target="__blank"><img src={chattappimage} alt='html' className='img-container-item , img-responsive'/></a>
             </div>
     </div>
     <div className='five' id='resume'>
